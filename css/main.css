@@ -8,8 +8,10 @@ p {
 
 /*colors */
 /*Высота шапки сайта */
+/*Высота шапки страницы */
 /*Шапка сайта */
 header.header-on-site {
+  z-index: 3;
   position: fixed;
   font-size: 16px;
   font-weight: bold;
@@ -32,14 +34,19 @@ header.header-on-site {
 div.header-on-page {
   position: relative; }
   div.header-on-page div.headline-page {
+    z-index: 2;
     position: absolute; }
     div.header-on-page div.headline-page div.row {
-      height: 50vh; }
+      height: 70vh; }
       div.header-on-page div.headline-page div.row div.col {
         display: block;
         text-align: center; }
-  div.header-on-page div.fifty-fifty div.col {
-    height: 50vh; }
+  div.header-on-page div.fifty-fifty {
+    z-index: 1; }
+    div.header-on-page div.fifty-fifty div.col {
+      height: 70vh; }
+    div.header-on-page div.fifty-fifty div.f-f_left-box {
+      background: #169416; }
 
 /*Конец шапки страницы */
 

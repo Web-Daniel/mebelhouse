@@ -1,6 +1,7 @@
 @import "resources"
 /*Шапка сайта*/
 header.header-on-site
+    z-index: 3
     position: fixed
     font-size: 16px
     font-weight: bold
@@ -27,13 +28,17 @@ header.header-on-site
 div.header-on-page
     position: relative
     div.headline-page
+        z-index: 2
         position: absolute
         div.row
-            height: 50vh
+            height: $h-header-page
             div.col
                 display: block
                 text-align: center
     div.fifty-fifty
+        z-index: 1
         div.col
-            height: 50vh
+            height: $h-header-page
+        div.f-f_left-box
+            background: #169416
 /*Конец шапки страницы*/
