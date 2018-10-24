@@ -1,3 +1,26 @@
+@charset "UTF-8";
+p {
+  margin: 0; }
 
+/*colors */
+/*Высота шапки сайта */
+/*Шапка сайта */
+header.header-on-site {
+  position: fixed;
+  font-size: 16px;
+  font-weight: bold;
+  color: #003333; }
+  header.header-on-site div.row div.header-on-site_left-box div.row div.img_box img {
+    height: 50px; }
+  header.header-on-site div.row div.header-on-site_left-box div.row div.text-abaut-logo_box {
+    height: 50px;
+    border-left: 2px solid green; }
+    header.header-on-site div.row div.header-on-site_left-box div.row div.text-abaut-logo_box p.text-about-logo {
+      line-height: 50px; }
+  header.header-on-site div.row div.header-on-site_right-box div {
+    display: inline;
+    height: 50px; }
+    header.header-on-site div.row div.header-on-site_right-box div p {
+      line-height: 50px; }
 
 /*# sourceMappingURL=main.css.map */
