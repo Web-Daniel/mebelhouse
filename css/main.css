@@ -47,6 +47,12 @@ div.header-on-page {
       height: 70vh; }
     div.header-on-page div.fifty-fifty div.f-f_left-box {
       background: #169416; }
+    div.header-on-page div.fifty-fifty div.f-f_right-box div div div {
+      width: 50vw; }
+      div.header-on-page div.fifty-fifty div.f-f_right-box div div div img {
+        height: 70vh !important;
+        -o-object-fit: cover;
+           object-fit: cover; }
 
 /*Конец шапки страницы */
 
