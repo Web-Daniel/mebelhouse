@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*Общие стили */
+.container-fluid, .row, col {
+  padding: 0; }
+
 p {
   margin: 0; }
 
@@ -25,6 +29,18 @@ header.header-on-site {
 
 /*Конец шапки сайта */
 /*Шапка страницы */
+div.header-on-page {
+  position: relative; }
+  div.header-on-page div.headline-page {
+    position: absolute; }
+    div.header-on-page div.headline-page div.row {
+      height: 50vh; }
+      div.header-on-page div.headline-page div.row div.col {
+        display: block;
+        text-align: center; }
+  div.header-on-page div.fifty-fifty div.col {
+    height: 50vh; }
+
 /*Конец шапки страницы */
 
 /*# sourceMappingURL=main.css.map */
