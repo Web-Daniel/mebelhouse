@@ -15,7 +15,8 @@ header.header-on-site {
   position: fixed;
   font-size: 16px;
   font-weight: bold;
-  color: #003333; }
+  color: #pa003333;
+  padding-left: 150px !important; }
   header.header-on-site div.row div.header-on-site_left-box div.row div.img_box img {
     height: 50px; }
   header.header-on-site div.row div.header-on-site_left-box div.row div.text-abaut-logo_box {
@@ -57,18 +58,29 @@ div.header-on-page {
 /*Конец шапки страницы */
 /*Кнопки бистрой навигации */
 div.speed-navigation div.row div.speed_but-nav {
+  position: relative;
   overflow: hidden;
   max-height: 40vh; }
-  div.speed-navigation div.row div.speed_but-nav a img {
+  div.speed-navigation div.row div.speed_but-nav div a img {
     max-height: 60vh;
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out; }
-  div.speed-navigation div.row div.speed_but-nav a img:hover {
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out; }
+  div.speed-navigation div.row div.speed_but-nav div a img:hover {
     -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1); }
+            transform: scale(1.1); }
+  div.speed-navigation div.row div.speed_but-nav p {
+    opacity: 1;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+    -webkit-transition: all 2s;
+    transition: all 2s; }
+div.speed-navigation div.row div.speed_but-nav:hover p {
+  opacity: 0; }
 
 /*Конец кнопок быстрой навигации */
+/*Медиазапросы */
 
 /*# sourceMappingURL=main.css.map */

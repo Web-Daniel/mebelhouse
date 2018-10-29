@@ -5,7 +5,8 @@ header.header-on-site
     position: fixed
     font-size: 16px
     font-weight: bold
-    color: #003333
+    color: #pa003333
+    padding-left: 150px !important
     div.row
         div.header-on-site_left-box
             div.row
@@ -54,16 +55,27 @@ div.header-on-page
 div.speed-navigation
     div.row
         div.speed_but-nav
+            position: relative
             overflow: hidden
             max-height: 40vh
-            a
-                img
-                    max-height: 60vh
-                    -moz-transition: all 1s ease-out
-                    -o-transition: all 1s ease-out
-                    -webkit-transition: all 1s ease-out
-                img:hover
-                    -webkit-transform: scale(1.1)
-                    -moz-transform: scale(1.1)
-                    -o-transform: scale(1.1)
+            div
+                a
+                    img
+                        max-height: 60vh
+                        transition: all 1s ease-out
+                    img:hover
+                        transform: scale(1.1)
+            p
+                opacity: 1
+                position: absolute
+                right: 40px
+                bottom: 10px
+                color: #ffffff
+                font-weight: bolder
+                transition: all 2s
+        div.speed_but-nav:hover
+            p
+                opacity: 0
+
 /*Конец кнопок быстрой навигации*/
+/*Медиазапросы*/
