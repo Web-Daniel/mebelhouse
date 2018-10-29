@@ -88,6 +88,14 @@ div.speed-navigation div.row div.speed_but-nav:hover p {
   opacity: 0; }
 
 /*Конец кнопок быстрой навигации */
+/*Отзывы */
+div.reviews h3 {
+  text-align: center; }
+div.reviews div.reviews_box div img {
+  max-height: 100px;
+  float: left; }
+
+/*Конец отзывов */
 /*Форма обратной связи */
 div.feedback_box div.row div.form_box {
   background: #6aa847; }
