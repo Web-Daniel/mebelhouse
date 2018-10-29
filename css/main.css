@@ -93,7 +93,8 @@ div.reviews h3 {
   text-align: center; }
 div.reviews div.reviews_box div img {
   max-height: 100px;
-  float: left; }
+  float: left;
+  margin-right: 5px; }
 
 /*Конец отзывов */
 /*Форма обратной связи */
@@ -104,5 +105,13 @@ div.feedback_box div.row div.form_box {
     text-align: left !important; }
 
 /*Конец формы обратной связи */
+/*Подвал */
+footer.footer {
+  background: #cdcdcd;
+  height: 10vh;
+  margin-top: 20px; }
+  footer.footer p {
+    line-height: 10vh; }
 
+/*Конец подвала */
 /*# sourceMappingURL=main.css.map */
