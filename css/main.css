@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Общие стили */
-.container-fluid, .row, col {
+.container-fluid, .row, .col, .col-12, .col-md-6, .col-md-4 {
   padding: 0; }
 
 p {
@@ -55,5 +55,20 @@ div.header-on-page {
            object-fit: cover; }
 
 /*Конец шапки страницы */
+/*Кнопки бистрой навигации */
+div.speed-navigation div.row div.speed_but-nav {
+  overflow: hidden;
+  max-height: 40vh; }
+  div.speed-navigation div.row div.speed_but-nav a img {
+    max-height: 60vh;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out; }
+  div.speed-navigation div.row div.speed_but-nav a img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1); }
+
+/*Конец кнопок быстрой навигации */
 
 /*# sourceMappingURL=main.css.map */
