@@ -1,11 +1,17 @@
 @charset "UTF-8";
 /*Общие стили */
-.container-fluid, .row, .col, .col-12, .col-md-6, .col-md-4, .col-md-8 {
+.container-fluid, .row, .col, .col-12, .col-md-6, .col-md-4, .col-md-8, .col-md-5, .col-md-7 {
   padding: 0;
   margin: 0; }
 
 p {
   margin: 0; }
+
+input {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important; }
 
 /*colors */
 /*Высота шапки сайта */
@@ -83,6 +89,12 @@ div.speed-navigation div.row div.speed_but-nav:hover p {
 
 /*Конец кнопок быстрой навигации */
 /*Форма обратной связи */
+div.feedback_box div.row div.form_box {
+  background: #6aa847; }
+  div.feedback_box div.row div.form_box form.form-inline div.row div label {
+    display: inline-block;
+    text-align: left !important; }
+
 /*Конец формы обратной связи */
 
 /*# sourceMappingURL=main.css.map */
