@@ -109,9 +109,11 @@ div.feedback_box div.row div.form_box {
 footer.footer {
   background: #cdcdcd;
   height: 10vh;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding-left: 110px; }
   footer.footer p {
     line-height: 10vh; }
 
 /*Конец подвала */
+
 /*# sourceMappingURL=main.css.map */
