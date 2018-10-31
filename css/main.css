@@ -21,6 +21,9 @@ div.portfolio div.row div img {
   width: 240px; }
 
 /*end portfolio */
+div.portfolio div.row div img {
+  width: 200px; }
+
 /*Шапка сайта */
 header.header-on-site {
   z-index: 3;
@@ -64,6 +67,7 @@ div.header-on-page {
       width: 50vw; }
       div.header-on-page div.fifty-fifty div.f-f_right-box div div div img {
         height: 70vh !important;
+        width: 100vw !important;
         -o-object-fit: cover;
            object-fit: cover; }
 
