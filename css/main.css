@@ -16,6 +16,11 @@ input {
 /*colors */
 /*Высота шапки сайта */
 /*Высота шапки страницы */
+/*portfolio */
+div.portfolio div.row div img {
+  width: 240px; }
+
+/*end portfolio */
 /*Шапка сайта */
 header.header-on-site {
   z-index: 3;
