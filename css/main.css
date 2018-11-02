@@ -31,6 +31,15 @@ div.contacts div.row div.form_box {
     text-align: left !important; }
 
 /*end contacts */
+/*company */
+div.company div.row div h3 {
+  text-align: center; }
+div.company div.row div p {
+  font-size: 18px; }
+div.company div.row div img {
+  width: 100%; }
+
+/*end company */
 /*Шапка сайта */
 header.header-on-site {
   z-index: 3;
