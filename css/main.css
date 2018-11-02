@@ -22,6 +22,14 @@ div.portfolio div.row div img {
 
 /*end portfolio */
 /*contacts */
+div.contacts div.row div.headline h3 {
+  text-align: center; }
+div.contacts div.row div.form_box {
+  background: #6aa847; }
+  div.contacts div.row div.form_box form.form-inline div.row div label {
+    display: inline-block;
+    text-align: left !important; }
+
 /*end contacts */
 /*Шапка сайта */
 header.header-on-site {
