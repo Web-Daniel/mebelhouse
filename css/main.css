@@ -63,7 +63,8 @@ div.header-on-page {
       height: 70vh; }
       div.header-on-page div.headline-page div.row div.col {
         display: block;
-        text-align: center; }
+        text-align: center;
+        color: #ffffff; }
   div.header-on-page div.fifty-fifty {
     z-index: 1; }
     div.header-on-page div.fifty-fifty div.col {
