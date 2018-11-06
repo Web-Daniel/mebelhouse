@@ -16,6 +16,22 @@ input {
 /*colors */
 /*Высота шапки сайта */
 /*Высота шапки страницы */
+/*menu */
+div.menu {
+  position: fixed;
+  z-index: 900;
+  width: 50vw;
+  height: 100vh;
+  background: #15bf0d;
+  opacity: 0.7; }
+  div.menu div.row div img {
+    width: 200px; }
+  div.menu div.row div ul li {
+    list-style-type: none; }
+    div.menu div.row div ul li a {
+      text-decoration: none; }
+
+/*end menu */
 /*portfolio */
 div.portfolio div.row div img {
   width: 240px; }
@@ -40,6 +56,9 @@ div.company div.row div img {
   width: 100%; }
 
 /*end company */
+@media only screen and (max-width: 768px) {
+  div.menu {
+    width: 100vw; } }
 /*Шапка сайта */
 header.header-on-site {
   z-index: 3;
