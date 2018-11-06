@@ -20,19 +20,27 @@ $h-header-page: 70vh
 div.menu
     position: fixed
     z-index: 900
-    width: 50vw
+    width: 40vw
     height: 100vh
     background: #15bf0d
-    opacity: 0.7
     div.row
         div
             img
                 width: 200px
+                margin-left: 10%
             ul
                 li
                     list-style-type: none
                     a
+                        display: block
+                        font-size: 18px
                         text-decoration: none
+                        color: #1c201e
+                        transition: color 0.5s ease-out
+                    a:hover
+                        color: #dee2e0
+                        background: #3e693d
+                        opacity: 0.7
 /*end menu*/
 /*portfolio*/
 div.portfolio

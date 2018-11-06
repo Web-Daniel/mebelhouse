@@ -20,16 +20,25 @@ input {
 div.menu {
   position: fixed;
   z-index: 900;
-  width: 50vw;
+  width: 40vw;
   height: 100vh;
-  background: #15bf0d;
-  opacity: 0.7; }
+  background: #15bf0d; }
   div.menu div.row div img {
-    width: 200px; }
+    width: 200px;
+    margin-left: 10%; }
   div.menu div.row div ul li {
     list-style-type: none; }
     div.menu div.row div ul li a {
-      text-decoration: none; }
+      display: block;
+      font-size: 18px;
+      text-decoration: none;
+      color: #1c201e;
+      -webkit-transition: color 0.5s ease-out;
+      transition: color 0.5s ease-out; }
+    div.menu div.row div ul li a:hover {
+      color: #dee2e0;
+      background: #3e693d;
+      opacity: 0.7; }
 
 /*end menu */
 /*portfolio */
