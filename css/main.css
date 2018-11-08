@@ -17,37 +17,34 @@ input {
 /*Высота шапки сайта */
 /*Высота шапки страницы */
 /*menu */
-div.menu {
+div.menu_block {
   position: fixed;
   z-index: 900;
   width: 40vw;
   height: 100vh;
   background: #15bf0d; }
-  @media only screen and (max-width: 576px) {
-    div.menu {
-      height: 600px; } }
-  div.menu div.menu_box {
+  div.menu_block div.menu_box {
     height: 100%; }
-    div.menu div.menu_box div.menu_boxing {
+    div.menu_block div.menu_box div.menu_boxing {
       height: 100%;
       overflow: auto; }
-      div.menu div.menu_box div.menu_boxing img {
+      div.menu_block div.menu_box div.menu_boxing img {
         width: 200px;
         margin-left: 10%; }
-      div.menu div.menu_box div.menu_boxing ul li {
+      div.menu_block div.menu_box div.menu_boxing ul li {
         list-style-type: none; }
-        div.menu div.menu_box div.menu_boxing ul li a {
+        div.menu_block div.menu_box div.menu_boxing ul li a {
           display: block;
           font-size: 18px;
           text-decoration: none;
           color: #1c201e;
           -webkit-transition: color 0.5s ease-out;
           transition: color 0.5s ease-out; }
-        div.menu div.menu_box div.menu_boxing ul li a:hover {
+        div.menu_block div.menu_box div.menu_boxing ul li a:hover {
           color: #dee2e0;
           background: #3e693d;
           opacity: 0.7; }
-      div.menu div.menu_box div.menu_boxing div.form_inMenu {
+      div.menu_block div.menu_box div.menu_boxing div.form_inMenu {
         position: relative;
         bottom: 0; }
 
@@ -79,6 +76,10 @@ div.company div.row div img {
 @media only screen and (max-width: 768px) {
   div.menu {
     width: 100vw; } }
+@media only screen and (max-width: 576px) {
+  div.menu_block {
+    height: 700px;
+    width: 100%; } }
 /*Шапка сайта */
 header.header-on-site {
   z-index: 3;

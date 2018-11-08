@@ -17,14 +17,12 @@ $h-header-site: 50px
 $h-header-page: 70vh
 
 /*menu*/
-div.menu
+div.menu_block
     position: fixed
     z-index: 900
     width: 40vw
     height: 100vh
     background: #15bf0d
-    @media only screen and (max-width: 576px)
-        height: 600px
     div.menu_box
         height: 100%
         div.menu_boxing
@@ -86,3 +84,8 @@ div.company
 @media only screen and (max-width: 768px)
     div.menu
         width: 100vw
+
+@media only screen and (max-width: 576px)
+    div.menu_block
+        height: 700px
+        width: 100%
