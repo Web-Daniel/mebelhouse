@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Общие стили */
-.container-fluid, .row, .col, .col-12, .col-md-6, .col-md-4, .col-md-8, .col-md-5, .col-md-7 {
+.container-fluid, .row, .col, .col-12, .col-md-6, .col-md-4, .col-md-8, .col-md-5, .col-md-7, .col-2, .col-1 {
   padding: 0;
   margin: 0; }
 
@@ -25,28 +25,41 @@ div.menu_block {
   background: #15bf0d; }
   div.menu_block div.menu_box {
     height: 100%; }
-    div.menu_block div.menu_box div.menu_boxing {
+    div.menu_block div.menu_box div.menu-left_box {
       height: 100%;
-      overflow: auto; }
-      div.menu_block div.menu_box div.menu_boxing img {
+      overflow: auto;
+      float: left; }
+      div.menu_block div.menu_box div.menu-left_box img {
         width: 200px;
         margin-left: 10%; }
-      div.menu_block div.menu_box div.menu_boxing ul li {
+      div.menu_block div.menu_box div.menu-left_box ul li {
         list-style-type: none; }
-        div.menu_block div.menu_box div.menu_boxing ul li a {
+        div.menu_block div.menu_box div.menu-left_box ul li a {
           display: block;
           font-size: 18px;
           text-decoration: none;
           color: #1c201e;
           -webkit-transition: color 0.5s ease-out;
           transition: color 0.5s ease-out; }
-        div.menu_block div.menu_box div.menu_boxing ul li a:hover {
+        div.menu_block div.menu_box div.menu-left_box ul li a:hover {
           color: #dee2e0;
           background: #3e693d;
           opacity: 0.7; }
-      div.menu_block div.menu_box div.menu_boxing div.form_inMenu {
+      div.menu_block div.menu_box div.menu-left_box div.form_inMenu {
         position: relative;
         bottom: 0; }
+    div.menu_block div.menu_box div.menu-right_box {
+      float: right; }
+
+label.check-menu_1 {
+  display: none; }
+
+label.for-check-menu {
+  position: absolute;
+  right: 10px; }
+
+input#check-menu {
+  display: none; }
 
 /*end menu */
 /*portfolio */
