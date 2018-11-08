@@ -23,11 +23,14 @@ div.menu_block
     width: 500px
     height: 100vh
     background: #15bf0d
+    left: -430px
     div.menu_box
         height: 100%
         div.menu-left_box
             height: 100%
-            width: 400px
+            max-width: 430px
+            padding-left: 30px
+            padding-right: 50px
             overflow: auto
             float: left
             img
@@ -51,8 +54,11 @@ div.menu_block
                 bottom: 0
         div.menu-right_box
             display: block
-            float: right
-            width: 100px
+            position: absolute
+            top: 0
+            right: 0
+            width: 70px
+            height: 100vh
             background: #688864
             text-align: center
             label.for-check-menu
@@ -62,8 +68,8 @@ label.check-menu_1
     display: none
 input#check-menu
     display: none
-    &:checked
-        
+    &:checked ~ div.menu_block
+        transform: translateX(430px)
 /*end menu*/
 /*portfolio*/
 div.portfolio
@@ -99,10 +105,24 @@ div.company
                 width: 100%
 /*end company*/
 @media only screen and (max-width: 768px)
-    div.menu
-        width: 100vw
-
-@media only screen and (max-width: 576px)
     div.menu_block
-        height: 700px
-        width: 100%
+        
+
+@media only screen and (max-width: 450px)
+    label.check-menu_1
+        display: block
+        position: absolute
+        z-index: 899
+        left: 30px
+        top: 30px
+        cursor: pointer
+        margin-top: 50px
+        font-weight: bold
+    div.menu_block
+        width: 100vw
+        div.menu_box
+            div.menu-left_box
+                max-width: 400px
+                padding-left: 0
+            div.menu-right_box
+                width: 50px
