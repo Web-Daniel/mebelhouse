@@ -4,6 +4,9 @@
   padding: 0;
   margin: 0; }
 
+body {
+  padding-left: 70px; }
+
 p {
   margin: 0; }
 
@@ -117,6 +120,9 @@ div.company div.row div img {
       padding-left: 0; }
     div.menu_block div.menu_box div.menu-right_box {
       width: 50px; } }
+body {
+  padding-left: 0; }
+
 /*Шапка сайта */
 header.header-on-site {
   z-index: 3;
