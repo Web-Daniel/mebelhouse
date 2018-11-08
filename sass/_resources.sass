@@ -20,13 +20,14 @@ $h-header-page: 70vh
 div.menu_block
     position: fixed
     z-index: 900
-    width: 40vw
+    width: 500px
     height: 100vh
     background: #15bf0d
     div.menu_box
         height: 100%
         div.menu-left_box
             height: 100%
+            width: 400px
             overflow: auto
             float: left
             img
@@ -49,12 +50,16 @@ div.menu_block
                 position: relative
                 bottom: 0
         div.menu-right_box
+            display: block
             float: right
+            width: 100px
+            background: #688864
+            text-align: center
+            label.for-check-menu
+                text-align: center !important
+                margin: 0 auto
 label.check-menu_1
     display: none
-label.for-check-menu
-    position: absolute
-    right: 10px
 input#check-menu
     display: none
     &:checked
