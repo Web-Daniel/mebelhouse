@@ -119,10 +119,10 @@ div.company div.row div img {
       max-width: 400px;
       padding-left: 0; }
     div.menu_block div.menu_box div.menu-right_box {
-      width: 50px; } }
-body {
-  padding-left: 0; }
+      width: 50px; }
 
+  body {
+    padding-left: 0; } }
 /*Шапка сайта */
 header.header-on-site {
   z-index: 3;
