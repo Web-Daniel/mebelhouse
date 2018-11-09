@@ -66,9 +66,14 @@ div.menu_block {
       text-align: center; }
       div.menu_block div.menu_box div.menu-right_box label.for-check-menu {
         text-align: center !important;
-        margin: 0 auto; }
+        margin: 0 auto;
+        font-weight: bold; }
         div.menu_block div.menu_box div.menu-right_box label.for-check-menu:hover {
-          text-shadow: 1px 1px 1px black, 0 0 1em green; }
+          text-shadow: 1px 1px 1px white, 0 0 1em green; }
+      div.menu_block div.menu_box div.menu-right_box i {
+        display: block; }
+        div.menu_block div.menu_box div.menu-right_box i:hover {
+          text-shadow: 1px 1px 1px white, 0 0 1em green; }
 
 label.check-menu_1 {
   display: none;
