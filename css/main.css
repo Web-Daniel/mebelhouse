@@ -67,9 +67,20 @@ div.menu_block {
       div.menu_block div.menu_box div.menu-right_box label.for-check-menu {
         text-align: center !important;
         margin: 0 auto; }
+        div.menu_block div.menu_box div.menu-right_box label.for-check-menu:hover {
+          text-shadow: 1px 1px 1px black, 0 0 1em green; }
 
 label.check-menu_1 {
-  display: none; }
+  display: none;
+  position: absolute;
+  z-index: 899;
+  left: 30px;
+  top: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff; }
+  label.check-menu_1:hover {
+    text-shadow: 1px 1px 2px black, 0 0 1em green; }
 
 input#check-menu {
   display: none; }
@@ -104,14 +115,7 @@ div.company div.row div img {
 /*end company */
 @media only screen and (max-width: 450px) {
   label.check-menu_1 {
-    display: block;
-    position: absolute;
-    z-index: 899;
-    left: 30px;
-    top: 30px;
-    cursor: pointer;
-    margin-top: 50px;
-    font-weight: bold; }
+    display: block; }
 
   div.menu_block {
     width: 100vw; }
