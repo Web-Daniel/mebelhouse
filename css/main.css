@@ -72,10 +72,14 @@ div.menu_block {
         font-weight: bold; }
         div.menu_block div.menu_box div.menu-right_box label.for-check-menu:hover {
           text-shadow: 1px 1px 1px white, 0 0 1em green; }
-      div.menu_block div.menu_box div.menu-right_box i {
-        display: block; }
-        div.menu_block div.menu_box div.menu-right_box i:hover {
-          text-shadow: 1px 1px 1px white, 0 0 1em green; }
+      div.menu_block div.menu_box div.menu-right_box a {
+        display: block;
+        text-decoration: none;
+        color: black; }
+        div.menu_block div.menu_box div.menu-right_box a i {
+          display: block; }
+          div.menu_block div.menu_box div.menu-right_box a i:hover {
+            text-shadow: 1px 1px 1px white, 0 0 1em green; }
 
 label.check-menu_1 {
   display: none;
