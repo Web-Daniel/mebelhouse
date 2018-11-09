@@ -26,7 +26,9 @@ div.menu_block {
   width: 500px;
   height: 100vh;
   background: #15bf0d;
-  left: -430px; }
+  left: -430px;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out; }
   div.menu_block div.menu_box {
     height: 100%; }
     div.menu_block div.menu_box div.menu-left_box {
