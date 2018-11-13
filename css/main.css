@@ -25,7 +25,7 @@ div.menu_block {
   z-index: 900;
   width: 500px;
   height: 100vh;
-  background: #15bf0d;
+  background: #00db6a;
   left: -430px;
   -webkit-transition: all 1s ease-out;
   transition: all 1s ease-out; }
@@ -177,7 +177,7 @@ div.header-on-page {
     div.header-on-page div.fifty-fifty div.col {
       height: 70vh; }
     div.header-on-page div.fifty-fifty div.f-f_left-box {
-      background: #169416; }
+      background: #315359; }
     div.header-on-page div.fifty-fifty div.f-f_right-box div div div {
       width: 50vw; }
       div.header-on-page div.fifty-fifty div.f-f_right-box div div div img {
@@ -202,7 +202,6 @@ div.speed-navigation div.row div.speed_but-nav {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
   div.speed-navigation div.row div.speed_but-nav p {
-    opacity: 1;
     position: absolute;
     right: 40px;
     bottom: 10px;
@@ -211,7 +210,7 @@ div.speed-navigation div.row div.speed_but-nav {
     -webkit-transition: all 2s;
     transition: all 2s; }
 div.speed-navigation div.row div.speed_but-nav:hover p {
-  opacity: 0; }
+  color: black; }
 
 /*Конец кнопок быстрой навигации */
 /*Наша работа */
