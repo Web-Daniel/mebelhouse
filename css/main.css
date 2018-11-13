@@ -214,6 +214,18 @@ div.speed-navigation div.row div.speed_but-nav:hover p {
   opacity: 0; }
 
 /*Конец кнопок быстрой навигации */
+/*Наша работа */
+div.our-work div div {
+  text-align: center; }
+  div.our-work div div h4 {
+    display: inline-block; }
+  div.our-work div div hr {
+    border: 2px solid #c2a84b;
+    width: 150px; }
+  div.our-work div div img {
+    width: 100%; }
+
+/*Конец нашей работы */
 /*Отзывы */
 div.reviews h3 {
   text-align: center; }
