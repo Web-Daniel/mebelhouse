@@ -69,7 +69,8 @@ div.menu_block {
       div.menu_block div.menu_box div.menu-right_box label.for-check-menu {
         text-align: center !important;
         margin: 0 auto;
-        font-weight: bold; }
+        font-weight: bold;
+        margin-bottom: 20px; }
         div.menu_block div.menu_box div.menu-right_box label.for-check-menu:hover {
           text-shadow: 1px 1px 1px white, 0 0 1em green; }
       div.menu_block div.menu_box div.menu-right_box a {
@@ -140,6 +141,7 @@ div.company div.row div img {
     padding-left: 0; } }
 /*Шапка сайта */
 header.header-on-site {
+  background: rgba(242, 250, 243, 0.3);
   z-index: 3;
   position: fixed;
   font-size: 16px;
@@ -193,7 +195,7 @@ div.speed-navigation div.row div.speed_but-nav {
   overflow: hidden;
   max-height: 30vh; }
   div.speed-navigation div.row div.speed_but-nav div a img {
-    max-width: 100%;
+    max-width: 101%;
     -o-object-fit: cover;
        object-fit: cover;
     -webkit-transition: all 1s ease-out;
@@ -202,27 +204,33 @@ div.speed-navigation div.row div.speed_but-nav {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
   div.speed-navigation div.row div.speed_but-nav p {
+    display: block;
     position: absolute;
     right: 40px;
     bottom: 10px;
     color: #ffffff;
     font-weight: bolder;
     -webkit-transition: all 2s;
-    transition: all 2s; }
+    transition: all 2s;
+    padding: 0 5px; }
 div.speed-navigation div.row div.speed_but-nav:hover p {
-  color: black; }
+  color: black;
+  background: rgba(242, 250, 243, 0.3);
+  border-radius: 5px; }
 
 /*Конец кнопок быстрой навигации */
 /*Наша работа */
-div.our-work div div {
-  text-align: center; }
-  div.our-work div div h4 {
-    display: inline-block; }
-  div.our-work div div hr {
-    border: 2px solid #c2a84b;
-    width: 150px; }
-  div.our-work div div img {
-    width: 100%; }
+div.our-work {
+  background: #f2faf3; }
+  div.our-work div div {
+    text-align: center; }
+    div.our-work div div h4 {
+      display: inline-block; }
+    div.our-work div div hr {
+      border: 2px solid #c2a84b;
+      width: 150px; }
+    div.our-work div div img {
+      width: 100%; }
 
 /*Конец нашей работы */
 /*Отзывы */
