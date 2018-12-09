@@ -2,19 +2,23 @@
 /*Общие стили */
 .container-fluid, .row, .col, .col-12, .col-md-6, .col-md-4, .col-md-8, .col-md-5, .col-md-7, .col-2, .col-1 {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 body {
-  padding-left: 70px; }
+  padding-left: 70px;
+}
 
 p {
-  margin: 0; }
+  margin: 0;
+}
 
 input {
   outline: none !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: none !important; }
+  border: none !important;
+}
 
 /*colors */
 /*Высота шапки сайта */
@@ -25,62 +29,76 @@ div.menu_block {
   z-index: 900;
   width: 500px;
   height: 100vh;
-  background: #00db6a;
+  background: #e3f1e8;
   left: -430px;
   -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out; }
-  div.menu_block div.menu_box {
-    height: 100%; }
-    div.menu_block div.menu_box div.menu-left_box {
-      height: 100%;
-      max-width: 430px;
-      padding-left: 30px;
-      padding-right: 50px;
-      overflow: auto;
-      float: left; }
-      div.menu_block div.menu_box div.menu-left_box img {
-        width: 200px;
-        margin-left: 20px; }
-      div.menu_block div.menu_box div.menu-left_box ul li {
-        list-style-type: none; }
-        div.menu_block div.menu_box div.menu-left_box ul li a {
-          display: block;
-          font-size: 18px;
-          text-decoration: none;
-          color: #1c201e;
-          -webkit-transition: color 0.5s ease-out;
-          transition: color 0.5s ease-out; }
-        div.menu_block div.menu_box div.menu-left_box ul li a:hover {
-          color: #dee2e0;
-          background: #3e693d;
-          opacity: 0.7; }
-      div.menu_block div.menu_box div.menu-left_box div.form_inMenu {
-        position: relative;
-        bottom: 0; }
-    div.menu_block div.menu_box div.menu-right_box {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 70px;
-      height: 100vh;
-      background: #688864;
-      text-align: center; }
-      div.menu_block div.menu_box div.menu-right_box label.for-check-menu {
-        text-align: center !important;
-        margin: 0 auto;
-        font-weight: bold;
-        margin-bottom: 20px; }
-        div.menu_block div.menu_box div.menu-right_box label.for-check-menu:hover {
-          text-shadow: 1px 1px 1px white, 0 0 1em green; }
-      div.menu_block div.menu_box div.menu-right_box a {
-        display: block;
-        text-decoration: none;
-        color: black; }
-        div.menu_block div.menu_box div.menu-right_box a i {
-          display: block; }
-          div.menu_block div.menu_box div.menu-right_box a i:hover {
-            text-shadow: 1px 1px 1px white, 0 0 1em green; }
+  transition: all 1s ease-out;
+}
+div.menu_block div.menu_box {
+  height: 100%;
+}
+div.menu_block div.menu_box div.menu-left_box {
+  height: 100%;
+  max-width: 430px;
+  padding-left: 30px;
+  padding-right: 50px;
+  overflow: auto;
+  float: left;
+}
+div.menu_block div.menu_box div.menu-left_box img {
+  width: 200px;
+  margin-left: 20px;
+}
+div.menu_block div.menu_box div.menu-left_box ul li {
+  list-style-type: none;
+}
+div.menu_block div.menu_box div.menu-left_box ul li a {
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #1c201e;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+div.menu_block div.menu_box div.menu-left_box ul li a:hover {
+  color: #dee2e0;
+  background: #3e693d;
+  opacity: 0.7;
+}
+div.menu_block div.menu_box div.menu-left_box div.form_inMenu {
+  position: relative;
+  bottom: 0;
+}
+div.menu_block div.menu_box div.menu-right_box {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 100vh;
+  background: #688864;
+  text-align: center;
+}
+div.menu_block div.menu_box div.menu-right_box label.for-check-menu {
+  text-align: center !important;
+  margin: 0 auto;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+div.menu_block div.menu_box div.menu-right_box label.for-check-menu:hover {
+  text-shadow: 1px 1px 1px white, 0 0 1em green;
+}
+div.menu_block div.menu_box div.menu-right_box a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+div.menu_block div.menu_box div.menu-right_box a i {
+  display: block;
+}
+div.menu_block div.menu_box div.menu-right_box a i:hover {
+  text-shadow: 1px 1px 1px white, 0 0 1em green;
+}
 
 label.check-menu_1 {
   display: none;
@@ -90,55 +108,72 @@ label.check-menu_1 {
   top: 30px;
   cursor: pointer;
   font-weight: bold;
-  color: #ffffff; }
-  label.check-menu_1:hover {
-    text-shadow: 1px 1px 2px black, 0 0 1em green; }
+  color: #ffffff;
+}
+label.check-menu_1:hover {
+  text-shadow: 1px 1px 2px black, 0 0 1em green;
+}
 
 input#check-menu {
-  display: none; }
-  input#check-menu:checked ~ div.menu_block {
-    -webkit-transform: translateX(430px);
-            transform: translateX(430px); }
+  display: none;
+}
+input#check-menu:checked ~ div.menu_block {
+  -webkit-transform: translateX(430px);
+          transform: translateX(430px);
+}
 
 /*end menu */
 /*portfolio */
 div.portfolio div.row div img {
-  width: 240px; }
+  width: 240px;
+}
 
 /*end portfolio */
 /*contacts */
 div.contacts div.row div.headline h3 {
-  text-align: center; }
+  text-align: center;
+}
 div.contacts div.row div.form_box {
-  background: #6aa847; }
-  div.contacts div.row div.form_box form.form-inline div.row div label {
-    display: inline-block;
-    text-align: left !important; }
+  background: #6aa847;
+}
+div.contacts div.row div.form_box form.form-inline div.row div label {
+  display: inline-block;
+  text-align: left !important;
+}
 
 /*end contacts */
 /*company */
 div.company div.row div h3 {
-  text-align: center; }
+  text-align: center;
+}
 div.company div.row div p {
-  font-size: 18px; }
+  font-size: 18px;
+}
 div.company div.row div img {
-  width: 100%; }
+  width: 100%;
+}
 
 /*end company */
 @media only screen and (max-width: 450px) {
   label.check-menu_1 {
-    display: block; }
+    display: block;
+  }
 
   div.menu_block {
-    width: 100vw; }
-    div.menu_block div.menu_box div.menu-left_box {
-      max-width: 400px;
-      padding-left: 0; }
-    div.menu_block div.menu_box div.menu-right_box {
-      width: 50px; }
+    width: 100vw;
+  }
+  div.menu_block div.menu_box div.menu-left_box {
+    max-width: 400px;
+    padding-left: 0;
+  }
+  div.menu_block div.menu_box div.menu-right_box {
+    width: 50px;
+  }
 
   body {
-    padding-left: 0; } }
+    padding-left: 0;
+  }
+}
 /*Шапка сайта */
 header.header-on-site {
   background: rgba(242, 250, 243, 0.3);
@@ -147,107 +182,137 @@ header.header-on-site {
   font-size: 16px;
   font-weight: bold;
   color: #pa003333;
-  padding-left: 150px !important; }
-  header.header-on-site div.row div.header-on-site_left-box div.row div.img_box img {
-    height: 50px; }
-  header.header-on-site div.row div.header-on-site_left-box div.row div.text-abaut-logo_box {
-    height: 50px;
-    border-left: 2px solid green; }
-    header.header-on-site div.row div.header-on-site_left-box div.row div.text-abaut-logo_box p.text-about-logo {
-      line-height: 50px; }
-  header.header-on-site div.row div.header-on-site_right-box div {
-    display: inline;
-    height: 50px; }
-    header.header-on-site div.row div.header-on-site_right-box div p {
-      line-height: 50px; }
+  padding-left: 150px !important;
+}
+header.header-on-site div.row div.header-on-site_left-box div.row div.img_box img {
+  height: 50px;
+}
+header.header-on-site div.row div.header-on-site_left-box div.row div.text-abaut-logo_box {
+  height: 50px;
+  border-left: 2px solid green;
+}
+header.header-on-site div.row div.header-on-site_left-box div.row div.text-abaut-logo_box p.text-about-logo {
+  line-height: 50px;
+}
+header.header-on-site div.row div.header-on-site_right-box div {
+  display: inline;
+  height: 50px;
+}
+header.header-on-site div.row div.header-on-site_right-box div p {
+  line-height: 50px;
+}
 
 /*Конец шапки сайта */
 /*Шапка страницы */
 div.header-on-page {
-  position: relative; }
-  div.header-on-page div.headline-page {
-    z-index: 2;
-    position: absolute; }
-    div.header-on-page div.headline-page div.row {
-      height: 70vh; }
-      div.header-on-page div.headline-page div.row div.col {
-        display: block;
-        text-align: center;
-        color: #ffffff; }
-  div.header-on-page div.fifty-fifty {
-    z-index: 1; }
-    div.header-on-page div.fifty-fifty div.col {
-      height: 70vh; }
-    div.header-on-page div.fifty-fifty div.f-f_left-box {
-      background: #315359; }
-    div.header-on-page div.fifty-fifty div.f-f_right-box div div div {
-      width: 50vw; }
-      div.header-on-page div.fifty-fifty div.f-f_right-box div div div img {
-        height: 70vh !important;
-        width: 100vw !important;
-        -o-object-fit: cover;
-           object-fit: cover; }
+  position: relative;
+}
+div.header-on-page div.headline-page {
+  z-index: 2;
+  position: absolute;
+}
+div.header-on-page div.headline-page div.row {
+  height: 70vh;
+}
+div.header-on-page div.headline-page div.row div.col {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+}
+div.header-on-page div.fifty-fifty {
+  z-index: 1;
+}
+div.header-on-page div.fifty-fifty div.col {
+  height: 70vh;
+}
+div.header-on-page div.fifty-fifty div.f-f_left-box {
+  background: #315359;
+}
+div.header-on-page div.fifty-fifty div.f-f_right-box div div div {
+  width: 50vw;
+}
+div.header-on-page div.fifty-fifty div.f-f_right-box div div div img {
+  height: 70vh !important;
+  width: 100vw !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 /*Конец шапки страницы */
 /*Кнопки бистрой навигации */
 div.speed-navigation div.row div.speed_but-nav {
   position: relative;
   overflow: hidden;
-  max-height: 30vh; }
-  div.speed-navigation div.row div.speed_but-nav div a img {
-    max-width: 101%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -webkit-transition: all 1s ease-out;
-    transition: all 1s ease-out; }
-  div.speed-navigation div.row div.speed_but-nav div a img:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1); }
-  div.speed-navigation div.row div.speed_but-nav p {
-    display: block;
-    position: absolute;
-    right: 40px;
-    bottom: 10px;
-    color: #ffffff;
-    font-weight: bolder;
-    -webkit-transition: all 2s;
-    transition: all 2s;
-    padding: 0 5px; }
+  max-height: 30vh;
+}
+div.speed-navigation div.row div.speed_but-nav div a img {
+  max-width: 101%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+div.speed-navigation div.row div.speed_but-nav div a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+div.speed-navigation div.row div.speed_but-nav p {
+  display: block;
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  padding: 0 5px;
+}
 div.speed-navigation div.row div.speed_but-nav:hover p {
   color: black;
   background: rgba(242, 250, 243, 0.3);
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 /*Конец кнопок быстрой навигации */
 /*Наша работа */
 div.our-work {
-  background: #f2faf3; }
-  div.our-work div div {
-    text-align: center; }
-    div.our-work div div h4 {
-      display: inline-block; }
-    div.our-work div div hr {
-      border: 2px solid #c2a84b;
-      width: 150px; }
-    div.our-work div div img {
-      width: 100%; }
+  background: #f2faf3;
+}
+div.our-work div div {
+  text-align: center;
+}
+div.our-work div div h4 {
+  display: inline-block;
+}
+div.our-work div div hr {
+  border: 2px solid #c2a84b;
+  width: 150px;
+}
+div.our-work div div img {
+  width: 100%;
+}
 
 /*Конец нашей работы */
 /*Отзывы */
 div.reviews h3 {
-  text-align: center; }
+  text-align: center;
+}
 div.reviews div.reviews_box div img {
   max-height: 100px;
   float: left;
-  margin-right: 5px; }
+  margin-right: 5px;
+}
 
 /*Конец отзывов */
 /*Форма обратной связи */
 div.feedback_box div.row div.form_box {
-  background: #6aa847; }
-  div.feedback_box div.row div.form_box form.form-inline div.row div label {
-    display: inline-block;
-    text-align: left !important; }
+  background: #6aa847;
+}
+div.feedback_box div.row div.form_box form.form-inline div.row div label {
+  display: inline-block;
+  text-align: left !important;
+}
 
 /*Конец формы обратной связи */
 /*Подвал */
@@ -255,10 +320,10 @@ footer.footer {
   background: #cdcdcd;
   height: 10vh;
   margin-top: 20px;
-  padding-left: 110px; }
-  footer.footer p {
-    line-height: 10vh; }
+  padding-left: 110px;
+}
+footer.footer p {
+  line-height: 10vh;
+}
 
 /*Конец подвала */
-
-/*# sourceMappingURL=main.css.map */
